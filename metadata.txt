@@ -1,0 +1,7 @@
+[general]
+name=OSRM Routing
+description=Provides routing visualization within QField
+author=OPENGIS.ch
+icon=icon.svg
+version=1.0
+homepage=https://www.opengis.ch/

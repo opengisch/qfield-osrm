@@ -67,7 +67,11 @@ Item {
     width: childrenRect.width + 10
     height: 48
     radius: height / 2
-    color: "#015491"
+    gradient: Gradient {
+      orientation: Gradient.Horizontal
+      GradientStop { position: 0.0; color: "#015491" }
+      GradientStop { position: 1.0; color: "#562b7a" }
+    }
     
     QfToolButton {
       id: addStartPointButton
